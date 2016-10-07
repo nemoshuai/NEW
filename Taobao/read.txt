@@ -1,0 +1,2 @@
+good.html--商品详情页(放大镜调用了imagezoom组件)
+index.html--首页(轮播调用了bootstrap)

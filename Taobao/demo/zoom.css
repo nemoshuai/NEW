@@ -1,0 +1,27 @@
+
+.zoomDiv{
+  z-index:999;
+  position:absolute;
+  top:300px !important;
+  left:0px;
+  width:400px !important;
+  height:400px !important;
+  background:#ffffff;
+  border:1px solid #CCCCCC;
+  display:none;
+  text-align:center;
+  overflow:hidden;
+}
+.zoomDiv img{
+  width: 800px;
+  height: 800px;
+}
+.zoomMask{
+  position:absolute;
+  background:url("images/good/mask.png") repeat scroll 0 0 transparent;
+  cursor:move;
+  z-index:1;
+  width:200px !important;
+  height: 200px !important;
+}
+
